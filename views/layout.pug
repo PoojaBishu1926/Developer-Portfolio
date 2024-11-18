@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet", href="/css/styles.css")
+  body
+    header
+      nav
+        ul
+          li: a(href="/") Home
+          li: a(href="/about") About
+          li: a(href="/projects") Projects
+    block content
+    script(src="/js/scripts.js")
